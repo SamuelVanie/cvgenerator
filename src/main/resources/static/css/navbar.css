@@ -1,7 +1,9 @@
-body {
-  background-color: #000000;
+.navbar {
+  display: flex;
+  align-items: start;
+  border: solid 1px red;
 }
 
-p {
-  color: red;
+.menu__list {
+  display: flex;
 }
