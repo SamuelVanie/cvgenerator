@@ -1,8 +1,29 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <body>
-        <div th:fragment="navbar">
-            <p>Je suis toujours la</p>
+  <head>
+    <link th:href="@{/css/navbar.css}" rel="stylesheet" />
+  </head>
+  <body>
+    <div th:fragment="navbar">
+      <nav>
+        <div class="logo">
+          <svg></svg>
+          <p>Resume</p>
         </div>
-    </body>
+
+        <div class="menu">
+          <ul class="menu__list">
+            <li>Home</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="btn_start">
+          <button class="call_to_act">Get started</button>
+        </div>
+      </nav>
+    </div>
+  </body>
 </html>
