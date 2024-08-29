@@ -1,25 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
   <head>
     <link th:href="@{/css/navbar.css}" rel="stylesheet" />
   </head>
   <body>
-    <div th:fragment="navbar">
-      <nav class="navbar">
-        <div class="logo">
-          <svg></svg>
-          <p>Resume</p>
-        </div>
+    <nav th:fragment="navbar" class="navbar">
+      <div class="navbar-brand">
+        <span class="navbar-logo"></span>
+        <span class="navbar-title">Resume</span>
+      </div>
 
-        <ul class="menu__list">
-          <li>Home</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Contact</li>
-        </ul>
+      <ul class="navbar-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="">Features</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
 
-        <button class="call_to_act">Get started</button>
-      </nav>
-    </div>
+      <a href="#" class="get-started-button">Get started</a>
+    </nav>
   </body>
 </html>

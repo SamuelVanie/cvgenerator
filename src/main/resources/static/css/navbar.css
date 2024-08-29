@@ -1,9 +1,51 @@
 .navbar {
   display: flex;
-  align-items: start;
-  border: solid 1px red;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
 }
 
-.menu__list {
+.navbar-brand {
   display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+}
+
+.navbar-title {
+  font-size: 18px;
+  color: black;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu > li {
+  margin-left: 20px;
+}
+
+.navbar-menu > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.get-started-button {
+  background-color: #ffa07a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.get-started-button:hover {
+  background-color: #ff7f50;
 }
