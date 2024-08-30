@@ -1,0 +1,18 @@
+* How to do hot reload for quick page dev
+
+** Find all the resources files
+
+Get all the files in directory and subdirectories of resources :
+
+find ./src/main/resources/ -type f -not -wholename "*~ 
+
+** HotReload the springboot server
+
+Use entr to stop and reload the springboot server :
+
+entr -r ./gradlew bootRun && firefox -reload
+
+
+** Final command
+
+find ./src/main/resources/ -type f -not -wholename "*~" | entr -r ./gradlew bootRun && firefox -reload
