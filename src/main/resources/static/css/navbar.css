@@ -17,6 +17,7 @@
 
 .navbar-title {
   font-size: 18px;
+  padding-left: 8.5px;
   color: black;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .get-started-button {
-  background-color: #ffa07a;
+  background-color: #ff784b;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
@@ -47,5 +48,5 @@
 }
 
 .get-started-button:hover {
-  background-color: #ff7f50;
+  background-color: #ff704f;
 }
