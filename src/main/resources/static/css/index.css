@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.start-building-button {
+  background-color: white;
+  font-weight: bold;
+  color: #ff784b;
+  padding: 10px 20px;
+  margin-top: 1.2em;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 13.5px;
+}
+
+.main_part {
+  background-color: #ff784b;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title_main_part {
+  color: white;
+  font-family: Palanquin;
+}
+
+.description_main_part {
+  color: white;
+  font-size: 0.8em;
+}
