@@ -32,3 +32,34 @@
   color: white;
   font-size: 0.8em;
 }
+
+.features_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5em;
+  gap: 2em;
+}
+
+.title_features_part {
+  font-weight: 600;
+  font-family: Roboto;
+  font-family: Palanquin;
+}
+
+.features {
+  display: flex;
+  gap: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.title_feature_section {
+  font-family: Roboto;
+}
+
+.description_feature_section {
+  font-weight: 200;
+  font-family: Roboto;
+}
